@@ -1,0 +1,7 @@
+addr: "0.0.0.0:8810"
+
+meiqia_mysql:
+  dsn: "root:@tcp(127.0.0.1:3306)/meiqia"
+  max_idle_conns: 16
+  max_open_conns: 16
+  conn_max_lifetime: 30m
